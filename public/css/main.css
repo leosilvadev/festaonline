@@ -1,0 +1,76 @@
+/* FONT STACK */
+body,
+input, select, textarea {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+}
+
+/* BASE LAYOUT */
+.centralizado{
+    text-align: center !important;
+}
+
+.link{
+    margin-bottom: 5px;
+}
+
+.link span{
+    font-size: 1.1em !important;
+}
+
+.z-listheader-content{
+    font-size: 1.1em !important;
+}
+
+.z-listcell-content{
+    font-size: 1.1em !important;
+}
+
+.z-window-header.z-window-header-move{
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    margin-left: 10px !important;
+}
+
+.z-messagebox-button.btn{
+    border: 1px solid rgb(155, 155, 155);
+}
+
+
+a{
+    cursor: pointer !important;
+}
+
+.z-textbox{
+    border-radius: 0px;
+}
+
+
+.z-window-header{
+    font-size: 1.8em;
+}
+
+.z-row-inner{
+    text-align: right;
+}
+.z-row-inner .z-label{
+    font-size: 1.4em;
+}
+
+.z-datebox{
+    float: left;
+}
+
+.z-datebox-input{
+    height: 35px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.z-datebox-button{
+    height: 35px;
+    padding-top: 8px;
+}

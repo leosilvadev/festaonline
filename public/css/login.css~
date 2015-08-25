@@ -1,0 +1,59 @@
+body{
+    background: url("../images/ballons.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.divLogin-main{
+    margin-top: 40px;
+}
+
+.divLogin{
+    background-color: rgba(224, 158, 158, 0.12);
+    max-width:450px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    -webkit-border-radius:20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btnLogin{
+    width: 100%;
+}
+
+.lblMsg{
+    color: #cc0000;
+}
+
+.input-group-addon .labelLogin{
+    font-size: 1.2em;
+}
+
+.input-group-addon .glyphicon{
+    font-size: 1.2em;
+}
+
+.form-control{
+    height: 37px;
+    font-size: 1.2em;
+}
+
+.z-textbox{
+}
+
+.input-group-addon{
+}
+
+.div-mensagem-login{
+    padding: 10px;
+    text-align: center;
+}
+
+.div-mensagem-login .z-label{
+    font-size: 1.4em;
+}
