@@ -4,6 +4,10 @@ var express =	require('express'),
 					app = express();
 
 app.use(bodyParser.json());
+app.use(express.static(__dirname + '/public'));
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
 
 load('controllers')
 	.then('routes')
